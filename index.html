@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fabian | Maquetacion Web</title>
+
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/2/26/Logo_Sitio_Web.png"
+    />
+  </head>
+  <body>
+    <style>
+      .div_principal {
+        padding: 0 !important;
+        margin: 0 !important;
+        display: block !important;
+        min-width: 100% !important;
+        width: 100% !important;
+        background: #eeeef3;
+      }
+      .contenedor_secciones {
+        max-width: 580px;
+        min-width: auto;
+        width: auto;
+        font-size: 0pt;
+        line-height: 0pt;
+        padding: 0;
+        margin: 0;
+        font-weight: normal;
+      }
+      .contenedor_logo {
+        padding: 0px 15px;
+        text-align: center;
+      }
+      h1 {
+        color: #000;
+        font-family: "Mulish", sans-serif;
+        font-size: 30px;
+        line-height: 28px;
+        text-transform: none;
+        text-align: center;
+        padding-bottom: 30px;
+        font-weight: 300;
+      }
+      h2 {
+        font-family: "Mulish", sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+        text-transform: none;
+        text-align: center;
+        padding-top: 25px;
+      }
+
+      .td_h4 {
+        font-family: "Mulish", sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+      }
+      .td_h5 {
+        font-family: "Mulish", sans-serif;
+        font-size: 18px;
+        line-height: 20px;
+        text-align: left;
+        padding-top: 0px;
+      }
+      .td_p {
+        font-family: "Mulish", sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: none;
+        padding-bottom: 50px;
+        text-align: justify;
+      }
+      .seccion_uno,
+      .seccion_dos,
+      .seccion_tres {
+        background: #ffffff;
+        margin: 0 0 20px;
+        border-collapse: separate;
+        border-spacing: 0px;
+        border-radius: 20px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: #e1e1e3;
+        width: 100%;
+      }
+      .img_productos_promociones {
+        display: block;
+        border: 0;
+        outline: none;
+        text-decoration: none;
+        margin: 10px auto 0;
+        width: 88px;
+        height: 82px;
+      }
+      .td_p_referencia {
+        font-family: "Mulish", sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        text-align: left;
+        text-transform: none;
+        padding: 0 10px;
+        font-weight: normal;
+      }
+
+      .parrafo_texto_imagen {
+        font-family: "Mulish", sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left;
+        padding-bottom: 10px;
+        font-weight: normal;
+      }
+
+      .productos_beneficios {
+        color: #000;
+        font-family: "Mulish", sans-serif;
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+        padding-bottom: 30px;
+        font-weight: normal;
+      }
+      .pregunta {
+        color: #000;
+        font-family: "Mulish", sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        text-transform: none;
+        text-align: center;
+        padding-bottom: 10px;
+      }
+      .parrafo_seccion_tres {
+        color: #8f8f92;
+        font-family: Arial, sans-serif;
+        font-size: 12px;
+        line-height: 16px;
+        text-align: justify;
+        padding-bottom: 10px;
+        font-weight: normal;
+      }
+
+      h5 span {
+        color: #ff595c;
+        font-size: 20px;
+        display: inline-block;
+        vertical-align: bottom;
+        margin: 0 3px;
+      }
+      h5 span img {
+        height: 1.2em;
+        width: 1.2em;
+        vertical-align: middle;
+      }
+      .btn_registro {
+        padding: 20px 40px;
+        display: inline-block;
+        border-radius: 5px;
+        color: rgb(88, 79, 79);
+        font-family: "Mulish", verdana;
+        font-size: 18px;
+        font-weight: 400;
+        border: 1px solid black;
+        text-decoration: none;
+        margin-bottom: 40px;
+      }
+      .btn_seccion_dos {
+        padding: 10px 40px;
+        border-radius: 5px;
+        color: rgb(88, 79, 79);
+        font-family: "Mulish", verdana;
+        font-size: 17px;
+        border: 1px solid black;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .seccion_redes_sociales {
+        font-size: 0pt;
+        line-height: 0pt;
+        text-align: left;
+        padding: 10px;
+      }
+    </style>
+    <div>
+      <div>
+        <div class="div_principal">
+          <table bgcolor="#EEEEF3" cellspacing="0" width="100%">
+            <tbody>
+              <tr>
+                <td align="center" style="padding-top: 30px">
+                  <table
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="max-width: 580px"
+                    width="100%"
+                  >
+                    <tbody>
+                      <tr>
+                        <td class="contenedor_secciones">
+                          <table cellpadding="0" cellspacing="0" width="100%">
+                            <tbody>
+                              <tr>
+                                <td>
+                                  <!-- seccion 1 -->
+                                  <table
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="seccion_uno"
+                                  >
+                                    <tbody>
+                                      <!-- seccion 1 logo -->
+                                      <tr>
+                                        <td class="contenedor_logo">
+                                          <img
+                                            src="https://upload.wikimedia.org/wikipedia/commons/2/26/Logo_Sitio_Web.png"
+                                            alt=""
+                                            height="58"
+                                            width="65"
+                                          />
+                                        </td>
+                                      </tr>
+                                      <!-- seccion 1 texto -->
+                                      <tr>
+                                        <td
+                                          style="
+                                            padding: 0px 15px;
+                                            line-height: 0pt;
+                                            text-align: center;
+                                          "
+                                        >
+                                          <h2>
+                                            Te invito a conocer un poco mas de
+                                            mi
+                                          </h2>
+                                          <h1>Soy Fabian Menjura!</h1>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <!-- seccion 2 -->
+                                  <table
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="seccion_dos"
+                                  >
+                                    <tbody>
+                                      <!-- seccion 2.1 -->
+                                      <tr>
+                                        <td
+                                          style="padding: 50px 30px 20px 30px"
+                                        >
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            width="100%"
+                                          >
+                                            <tbody>
+                                              <!-- seccion 2.1.1 texto -->
+                                              <tr>
+                                                <td class="td_p">
+                                                  <p>
+                                                    Estudiante de ingeniería de
+                                                    sistemas últimos semestres,
+                                                    interesado en el desarrollo
+                                                    de software de mucho tiempo,
+                                                    apasionado por el
+                                                    aprendizaje continuo y la
+                                                    amplificación de
+                                                    competencias personales, me
+                                                    especializo en construir
+                                                    excepcionales experiencias
+                                                    digitales que viven en la
+                                                    web, busco siempre trabajar
+                                                    en equipo, cooperando con
+                                                    todos y apoyando de la mejor
+                                                    manera posible, con grande
+                                                    satisfacción de enseñar,
+                                                    aprender y dar lo mejor de
+                                                    mi para ustedes.
+                                                  </p>
+                                                </td>
+                                              </tr>
+                                              <!-- seccion 2.1.2 targetas -->
+                                              <tr>
+                                                <td>
+                                                  <table
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                  >
+                                                    <tbody>
+                                                      <tr>
+                                                        <th width="150">
+                                                          <table
+                                                            cellpadding="0"
+                                                            cellspacing="0"
+                                                            width="100%"
+                                                          >
+                                                            <tbody>
+                                                              <tr>
+                                                                <td>
+                                                                  <img
+                                                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                                                                    alt=""
+                                                                    class="img_productos_promociones"
+                                                                  />
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td
+                                                                  class="productos_beneficios"
+                                                                >
+                                                                  <p>React</p>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </th>
+                                                        <th width="150">
+                                                          <table
+                                                            cellpadding="0"
+                                                            cellspacing="0"
+                                                            width="100%"
+                                                          >
+                                                            <tbody>
+                                                              <tr>
+                                                                <td>
+                                                                  <img
+                                                                    src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                                                                    alt=""
+                                                                    class="img_productos_promociones"
+                                                                  />
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td
+                                                                  class="productos_beneficios"
+                                                                >
+                                                                  <p></p>
+                                                                  <p>NodeJS</p>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </th>
+                                                        <th width="150">
+                                                          <table
+                                                            cellpadding="0"
+                                                            cellspacing="0"
+                                                            width="100%"
+                                                          >
+                                                            <tbody>
+                                                              <tr>
+                                                                <td>
+                                                                  <img
+                                                                    src="https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667"
+                                                                    alt=""
+                                                                    class="img_productos_promociones"
+                                                                  />
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td
+                                                                  class="productos_beneficios"
+                                                                >
+                                                                  <p>Git</p>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </th>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                              <!-- seccion 2.1.3 texto(pregunta) -->
+                                              <tr>
+                                                <td class="pregunta">
+                                                  <p>
+                                                    ¿Quieres saber aun mas de
+                                                    mi?
+                                                  </p>
+                                                </td>
+                                              </tr>
+                                              <!-- seccion 2.1.4 boton -->
+                                              <tr>
+                                                <td align="center">
+                                                  <a
+                                                    href="https://portafolio-c95a5.web.app/"
+                                                    class="btn_registro"
+                                                    ><strong>Click</strong></a
+                                                  >
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <!-- seccion 2.2 texto/imagen -->
+                                      <tr>
+                                        <td>
+                                          <table width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <th width="100%">
+                                                  <table>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td
+                                                          style="padding: 0 10%"
+                                                        >
+                                                          <img
+                                                            src="https://user-images.githubusercontent.com/86250631/209413606-fac6b40e-d274-4f25-a059-50b9e077ebb5.png"
+                                                            alt=""
+                                                            width="100%"
+                                                          />
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td
+                                                          style="padding: 10px"
+                                                        >
+                                                          <table
+                                                            width="100%"
+                                                            cellspacing="0"
+                                                            cellpadding="0"
+                                                          >
+                                                            <tbody>
+                                                              <tr>
+                                                                <td
+                                                                  class="td_h4"
+                                                                >
+                                                                  <h4>
+                                                                    Ecomerse
+                                                                    (React-Node)
+                                                                  </h4>
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td
+                                                                  class="parrafo_texto_imagen"
+                                                                >
+                                                                  <p>
+                                                                    La
+                                                                    plataforma
+                                                                    <a
+                                                                      href="https://find-your-teacher-pf.vercel.app/"
+                                                                      >Find Your
+                                                                      Teacher</a
+                                                                    >
+                                                                    es un sitio
+                                                                    web pensado
+                                                                    para
+                                                                    estudiantes
+                                                                    de
+                                                                    secundaria
+                                                                    que quieran
+                                                                    reforzar
+                                                                    materias de
+                                                                    sus clases,
+                                                                    alli
+                                                                    encontraran
+                                                                    profesores
+                                                                    de todo tipo
+                                                                    de areas.
+                                                                  </p>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </th>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <!-- seccion 2.3 imagen/texto -->
+                                      <tr>
+                                        <td>
+                                          <table
+                                            style="align-items: center"
+                                            width="100%"
+                                          >
+                                            <tbody>
+                                              <tr>
+                                                <th width="100%">
+                                                  <table>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td
+                                                          style="padding: 0 10%"
+                                                        >
+                                                          <img
+                                                            src="https://user-images.githubusercontent.com/86250631/222597925-ef649b7c-94cb-4e4a-9ea5-15067520c490.jpg"
+                                                            alt=""
+                                                            width="100%"
+                                                          />
+                                                        </td>
+                                                      </tr>
+                                                      <tr width="15"></tr>
+                                                      <tr>
+                                                        <td
+                                                          style="padding: 10px"
+                                                        >
+                                                          <table
+                                                            width="100%"
+                                                            cellspacing="0"
+                                                            cellpadding="0"
+                                                          >
+                                                            <tbody>
+                                                              <tr>
+                                                                <td
+                                                                  class="td_h4"
+                                                                >
+                                                                  <h4>
+                                                                    Rick and
+                                                                    Morty
+                                                                    (Angular)
+                                                                  </h4>
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td
+                                                                  class="parrafo_texto_imagen"
+                                                                >
+                                                                  <p>
+                                                                    Aplicacion
+                                                                    de
+                                                                    <a
+                                                                      href="https://rick-and-morty-fm.web.app/"
+                                                                    >
+                                                                      Rick and
+                                                                      Morty</a
+                                                                    >
+                                                                    donde
+                                                                    encontraras
+                                                                    todos los
+                                                                    personajes y
+                                                                    podrás
+                                                                    acceder a
+                                                                    cada uno de
+                                                                    ellos para
+                                                                    obtener mas
+                                                                    información,
+                                                                    también
+                                                                    podrás ver
+                                                                    en que
+                                                                    episodios a
+                                                                    estado cada
+                                                                    personaje y
+                                                                    una breve
+                                                                    descripción
+                                                                    de cada
+                                                                    episodio.
+                                                                  </p>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </th>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <!-- seccion 2.4 texto/imagen -->
+                                      <tr>
+                                        <td>
+                                          <table width="100%">
+                                            <tbody>
+                                              <tr>
+                                                <th width="100%">
+                                                  <table>
+                                                    <tbody>
+                                                      <tr>
+                                                        <td
+                                                          style="padding: 0 10%"
+                                                        >
+                                                          <img
+                                                            src="https://user-images.githubusercontent.com/86250631/220210906-e8592528-e666-4a0f-be3e-e12d56fd74e6.jpg"
+                                                            alt=""
+                                                            width="100%"
+                                                          />
+                                                        </td>
+                                                      </tr>
+                                                      <tr>
+                                                        <td
+                                                          style="padding: 10px"
+                                                        >
+                                                          <table
+                                                            width="100%"
+                                                            cellspacing="0"
+                                                            cellpadding="0"
+                                                          >
+                                                            <tbody>
+                                                              <tr>
+                                                                <td
+                                                                  class="td_h4"
+                                                                >
+                                                                  <h4>
+                                                                    Aplicación
+                                                                    del clima
+                                                                    (Angular)
+                                                                  </h4>
+                                                                </td>
+                                                              </tr>
+                                                              <tr>
+                                                                <td
+                                                                  class="parrafo_texto_imagen"
+                                                                >
+                                                                  <p>
+                                                                    En la
+                                                                    <a
+                                                                      href="https://app-clima-angular.web.app/"
+                                                                      >aplicación
+                                                                      del
+                                                                      clima</a
+                                                                    >
+                                                                    podras
+                                                                    buscar
+                                                                    cualquier
+                                                                    ciudad o
+                                                                    pais del
+                                                                    mundo y
+                                                                    saber cual
+                                                                    es su estado
+                                                                    climatico en
+                                                                    tiempo real
+                                                                  </p>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </th>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                      <!-- seccion 2.5 texto-->
+                                      <tr>
+                                        <td class="td_p" style="padding: 20px">
+                                          <p>
+                                            Los anteriores fueron algunos de los
+                                            proyectos que e venido desarrollando
+                                            como practica en el desarrollo web
+                                          </p>
+                                        </td>
+                                      </tr>
+                                      <!-- seccion 2.6  boton-->
+                                      <tr>
+                                        <td>
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            width="100%"
+                                          >
+                                            <tbody>
+                                              <tr>
+                                                <td
+                                                  style="
+                                                    padding: 40px 30px 70px 30px;
+                                                  "
+                                                >
+                                                  <table
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                  >
+                                                    <tbody>
+                                                      <tr>
+                                                        <td align="center">
+                                                          ><a
+                                                            download
+                                                            href="https://drive.google.com/file/d/1CgGl2-B4mLiWjz6VLOLC22DpFF9xWUIv/view?usp=sharing"
+                                                            class="btn_seccion_dos"
+                                                            >Ver CV</a
+                                                          >
+                                                          >
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </td>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                  <!-- seccion 3 -->
+                                  <table
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    class="seccion_tres"
+                                  >
+                                    <tbody>
+                                      <tr>
+                                        <td style="padding: 40px 30px">
+                                          <table
+                                            cellpadding="0"
+                                            cellspacing="0"
+                                            width="100%"
+                                          >
+                                            <tbody>
+                                              <tr>
+                                                <th width="100%">
+                                                  <table
+                                                    cellpadding="0"
+                                                    cellspacing="0"
+                                                    width="100%"
+                                                  >
+                                                    <tbody>
+                                                      <!-- seccion 3 logo holafly-->
+                                                      <tr>
+                                                        <td class="td_h4">
+                                                          <h4 align="justify">
+                                                            <a
+                                                              href="https://www.linkedin.com/in/fabian-menjura-1409ba216/"
+                                                              style="
+                                                                text-decoration: none;
+                                                                color: #229185;
+                                                              "
+                                                              >WEB DEVELOPER
+                                                              🤍👨‍💻</a
+                                                            >
+                                                          </h4>
+                                                        </td>
+                                                      </tr>
+                                                      <!-- seccion 3 subtitulo con corazoncito -->
+                                                      <tr>
+                                                        <td class="td_h5">
+                                                          <h5>
+                                                            Pasion por el
+                                                            desarrollo web
+                                                            <span
+                                                              ><img
+                                                                src="https://fonts.gstatic.com/s/e/notoemoji/15.0/2764/32.png"
+                                                                alt=""
+                                                            /></span>
+                                                          </h5>
+                                                        </td>
+                                                      </tr>
+                                                      <!-- seccion 3 texto con enlaces -->
+                                                      <tr>
+                                                        <td
+                                                          class="parrafo_seccion_tres"
+                                                        >
+                                                          <br />
+                                                          <p>
+                                                            <strong
+                                                              >Fabian
+                                                              Menjura</strong
+                                                            >, estara siempre
+                                                            disponible para
+                                                            usted, si necesita
+                                                            un desarrollador
+                                                            web, no dude en
+                                                            contactarme, me
+                                                            pueden contactar por
+                                                            <a
+                                                              href="https://api.whatsapp.com/send/?phone=3146364068"
+                                                              >whatsapp</a
+                                                            >, tambien por
+                                                            <a
+                                                              href="https://www.linkedin.com/in/fabian-menjura-1409ba216/"
+                                                              >Linkedin</a
+                                                            >
+                                                            o pueden tambien
+                                                            enviarme un email al
+                                                            siguiente correo
+                                                            electronico
+                                                            <a
+                                                              href="mailto:fabian.menjura.22@gmail.com"
+                                                            >
+                                                              fabian.menjura.22@gmail.com</a
+                                                            >
+                                                            estare encantado de
+                                                            ayudarlos
+                                                          </p>
+                                                        </td>
+                                                      </tr>
+                                                      <!-- seccion 3 url sitio web -->
+                                                      <tr>
+                                                        <td
+                                                          class="td_p_referencia"
+                                                        >
+                                                          <p>
+                                                            fabian-07-menjura
+                                                            cuenta de
+                                                            <a
+                                                              href="https://github.com/fabian-07-menjura"
+                                                              >Git Hub</a
+                                                            >
+                                                          </p>
+                                                          <a
+                                                            href="mailto:fabian.menjura.22@gmail.com"
+                                                          >
+                                                            fabian.menjura.22@gmail.com</a
+                                                          >
+                                                        </td>
+                                                      </tr>
+                                                      <!-- seccion 3 redes sociales -->
+                                                      <tr>
+                                                        <td align="left">
+                                                          <table
+                                                            cellpadding="0"
+                                                            cellspacing="0"
+                                                            style="
+                                                              text-align: center;
+                                                            "
+                                                          >
+                                                            <tbody>
+                                                              <tr
+                                                                style="
+                                                                  font-size: 0pt;
+                                                                  line-height: 0pt;
+                                                                  text-align: left;
+                                                                "
+                                                              >
+                                                                <td
+                                                                  class="seccion_redes_sociales"
+                                                                >
+                                                                  <a
+                                                                    href="https://www.linkedin.com/in/fabian-menjura-1409ba216/"
+                                                                    width="20"
+                                                                    ><img
+                                                                      src="data:image/png;base64,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"
+                                                                      alt=""
+                                                                      width="20px"
+                                                                  /></a>
+                                                                </td>
+                                                                <td
+                                                                  class="seccion_redes_sociales"
+                                                                >
+                                                                  <a
+                                                                    href="https://github.com/fabian-07-menjura"
+                                                                    width="20"
+                                                                    ><img
+                                                                      src="data:image/png;base64,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"
+                                                                      alt=""
+                                                                      width="20px"
+                                                                  /></a>
+                                                                </td>
+                                                              </tr>
+                                                            </tbody>
+                                                          </table>
+                                                        </td>
+                                                      </tr>
+                                                    </tbody>
+                                                  </table>
+                                                </th>
+                                              </tr>
+                                            </tbody>
+                                          </table>
+                                        </td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                                </td>
+                              </tr>
+                            </tbody>
+                          </table>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
